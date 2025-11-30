@@ -226,6 +226,24 @@ footer {
 }
 
 /* 8. ANIMATIONS */
+.ocean-wave-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    /* Optional: If you want it to sit at the bottom of the hero, add this: */
+    /* margin-top: -150px; */ 
+    /* z-index: 1; */
+}
+
+.ocean-wave-container svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 200px;
+}
+
+/* 9. ANIMATIONS */
 
 /* Floating Text Animation */
 @keyframes floatText {

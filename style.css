@@ -225,22 +225,20 @@ footer {
     font-size: 0.9rem;
 }
 
-/* 8. ANIMATIONS */
-.ocean-wave-container {
+/* 8. WAVE SEPARATOR */
+.wave-container {
     position: relative;
     width: 100%;
     overflow: hidden;
-    line-height: 0;
-    /* Optional: If you want it to sit at the bottom of the hero, add this: */
-    /* margin-top: -150px; */ 
-    /* z-index: 1; */
+    line-height: 0; /* Removes tiny gap at bottom */
+    transform: rotate(180deg); /* Flips it so it looks like it's hanging down */
 }
 
-.ocean-wave-container svg {
+.wave-container svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 200px;
+    height: 150px; /* Adjust height of the wave here */
 }
 
 /* 9. ANIMATIONS */
